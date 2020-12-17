@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    padding: 70px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+#myCarousel img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
